@@ -1,7 +1,8 @@
 <template>
     <footer>
-        <div class="text-center mb-3">
+        <div class="footer text-center mb-3">
             Aditya Fitriadi© 2022
+            <!-- Made with &#9749; -->
         </div>
     </footer>
 </template>

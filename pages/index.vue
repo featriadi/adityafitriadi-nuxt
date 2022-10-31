@@ -1,5 +1,5 @@
 <template>
-    <section class="container my-3">
+    <section class="container my-2">
         <Profile v-bind:dataSet="dataProfile"/>
     </section>
 </template>
@@ -16,10 +16,6 @@
         },
         data() {
             return {
-                configAPIProfile: {
-                    method: 'GET',
-                    url: `${ process.env.BASE_API_URL }/api/portofolio/profile`,
-                },
                 dataProfile: this.$store.state?.DataProfile,
             }
         },
