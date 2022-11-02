@@ -1,5 +1,5 @@
 <template>
-    <section class="container my-2">
+    <section class="container mt-4 mb-1">
         <Profile v-bind:dataSet="dataProfile"/>
     </section>
 </template>
